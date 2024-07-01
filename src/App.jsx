@@ -2,6 +2,7 @@ import './style.css'
 import NavBar from './components/navbar'
 import images from './assets/Fotoelfan.png'
 import Motion from './components/motion'
+import logo1 from '..assets/google-logo.png'
 
 function App() {
   return (
@@ -132,7 +133,7 @@ function App() {
       <div className='w-full px-4'>
         <div className='flex flex-wrap items-center justify-center'>
           <a href='#' className='max-w-[150px] mx-4 py-4 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 duration-100 lg:mx-6 xl:mx-8'>
-            <img src="src/assets/google-logo.png" alt="Google"></img>
+            <img src={logo1} alt="Google"></img>
           </a>
           <a href='#' className='max-w-[150px] mx-4 py-4 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 duration-100 lg:mx-6 xl:mx-8'>
             <img src="src/assets/logo Android.png" alt="Android"></img>
